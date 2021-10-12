@@ -7,7 +7,7 @@ A python file to read the testcase of Themis and convert to Ucode (testcases.txt
 1. Download (or Copy) ``main.py`` file.
 
 2. Copy the testcase of the problem in Themis format to your current working directory (location of your ``main.py`` file). Rename the folder to ``test``. 
-(inside ``test`` there will be multiple testcase folder, each folder contains an INPUT file and an OUTPUT file. (Usually with ``.inp`` and ``.out`` extension)
+(inside ``test`` there will be multiple testcase folder, each folder contains an INPUT file and an OUTPUT file, usually with ``.inp`` and ``.out`` extension)
 
 3. Run the ``main.py`` file from command line with 2 additional arguments specify the INPUT file extension and the OUTPUT file extension. 
 
@@ -17,7 +17,7 @@ A python file to read the testcase of Themis and convert to Ucode (testcases.txt
 
 * It is assumed that the number of testcases is **smaller than 100**. (In ``testcases.txt`` file you can see the number is indexed 01, 02, ...).
 * The filename of INPUT and OUTPUT file can be anything, the program only search for specific file extension. 
-* The folder contain the testcases must be named ``test``. (You can change it in ``main.py`` file).
+* The folder contain the testcases must be named ``test``. (You can change it in ``main.py`` file)
 
 # Example
 
