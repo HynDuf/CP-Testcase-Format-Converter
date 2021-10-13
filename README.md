@@ -17,6 +17,7 @@ A python file to read the testcase of Themis and convert to Ucode (testcases.txt
 
 * It is assumed that the number of testcases is **smaller than 100**. (In ``testcases.txt`` file you can see the number is indexed 01, 02, ...).
 * The filename of INPUT and OUTPUT file can be anything, the program only search for specific file extension. 
+* The INPUT extension and OUTPUT extension **must** be different.
 * The folder contain the testcases must be named ``test``. (You can change it in ``main.py`` file)
 
 # Example
