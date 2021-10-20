@@ -1,4 +1,4 @@
-# Testcase-Themis-to-Ucode
+# Testcase Themis to Ucode
 
 A python file to read the testcase of Themis and convert to Ucode (testcases.txt)
 
@@ -11,7 +11,7 @@ A python file to read the testcase of Themis and convert to Ucode (testcases.txt
 
 3. Run the ``main.py`` file from command line with 2 additional arguments specify the INPUT file extension and the OUTPUT file extension. 
 
-4. The problem will generate a ``testcases.txt`` file (or replace existing one) at your working folder.
+4. The program will generate a ``testcases.txt`` file (or replace existing one) at your working folder.
 
 ## Some notes
 
