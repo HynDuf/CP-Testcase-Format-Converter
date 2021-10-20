@@ -6,10 +6,10 @@ A python file to convert Atcoder testcase to Themis format.
 
 1. Download (or Copy) ``main.py`` file.
 
-2. Download Atcoder testcase folder and rename it to ``test``. Note that in ``test``, there is $2$ folder ``in`` and ``out``. ``in`` contains all the input files with ``.txt`` extension, ``out`` contains all the output files with ``.txt`` extension. 
+2. Download Atcoder testcase folder and rename it to ``test``. Note that in ``test``, there is 2 folder ``in`` and ``out``. ``in`` contains all the input files with ``.txt`` extension, ``out`` contains all the output files with ``.txt`` extension. 
 Two files having the same name indicate they are the same testcase. 
 
-3. Run ``main.py`` file in command line with $3$ additional arguments. 
+3. Run ``main.py`` file in command line with 3 additional arguments. 
 
     Ex: ``python main.py file_name inp out``
 
