@@ -10,10 +10,14 @@ A python file to convert Atcoder testcase to Themis format.
 Two files having the same name indicate they are the same testcase. 
 
 3. Run ``main.py`` file in command line with $3$ additional arguments. 
-Ex: ``python main.py file_name inp out``
-``file_name``: the name of the problem
-``inp``: Generate ``.inp`` file for input file.
-``out``: Generate ``.out`` file for output file.
+
+    Ex: ``python main.py file_name inp out``
+
+    ``file_name``: the name of the problem
+
+    ``inp``: Generate ``.inp`` file for input file.
+
+    ``out``: Generate ``.out`` file for output file.
 
 4. The program will generate ``result`` folder contains a folder named ``file_name``. In that folder is the testcases, each testcase corresponds to a folder. Done.
 
