@@ -40,4 +40,4 @@ After that we will have a new folder ``result``.
 
 ![](./example_pics/pic3.png)
 
-To clarify, ``E_test.inp`` in folder ``000`` is the same as ``test/in/000.txt``.
+To clarify, ``E.inp`` in folder ``01-single`` is the same as ``test/01-single.in`` and ``E.out`` in folder ``01-single`` is the same as ``test/01-single.ans``.
