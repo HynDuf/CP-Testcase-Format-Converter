@@ -1,17 +1,19 @@
-# python main.py file_name inp out
+# python main.py file_name inp out nl
 # It is assumed that all the files in "test" end with .txt
 
 from pathlib import Path
 import os
 import sys
 
-if len(sys.argv) != 4:
-    sys.exit("Please follow the input format: python main.py file_name inp out")
-file_name, inp, out = sys.argv[1:]
+if len(sys.argv) != 5:
+    sys.exit("Please follow the input format: python main.py file_name inp out nl. \n'nl' is 1 or 0.")
+file_name, inp, out, nl = sys.argv[1:]
 if Path('./test/in').exists():
     for file in os.listdir('./test/in'):
         with open('./test/in/' + file, 'r') as f:
             contents = f.read()
+        if nl == '1':
+            contents = '\n'.join(contents.split())
         name = os.path.splitext(file)[0]
         Path('./result/' + name).mkdir(parents=True, exist_ok=True)
         with open('./result/' + name + '/' + file_name + '.' + inp, 'w') as f:
