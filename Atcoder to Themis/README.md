@@ -19,7 +19,8 @@ Two files having the same name indicate they are the same testcase.
 
     ``out``: Generate ``.out`` file for output file.
 
-    ``1``: The content in input files are converted into each number is on each line. (if ``0``, then it will copy the whole thing and keep the exact format)
+    ``1``: The content in input files are converted into each number is on each line. 
+    (if ``0``, then it will copy the whole thing and keep the exact format)
 
 4. The program will generate ``result`` folder contains a folder named ``file_name``. In that folder is the testcases, each testcase corresponds to a folder. Done.
 
@@ -48,11 +49,17 @@ To clarify, ``E_test.inp`` in folder ``000`` is the same as ``test/in/000.txt``.
 About the **last** command line argument (``1`` or ``0``):
 
 - If you run with parameter ``1``, the contents in the **input** files will be separated by new line character. (Which means each number is on each separate line).
-![](./example_pics/pic5.png) 
-will become:
-![](./example_pics/pic6.png)
+
+    ![](./example_pics/pic5.png) 
+
+    will become:
+
+    ![](./example_pics/pic6.png)
 
 - If you run with parameter ``0``, nothing will change.
-![](./example_pics/pic5.png) 
-will become:
-![](./example_pics/pic4.png)
+ 
+    ![](./example_pics/pic5.png) 
+
+    will become:
+
+    ![](./example_pics/pic4.png)
