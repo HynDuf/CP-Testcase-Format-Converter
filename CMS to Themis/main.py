@@ -11,6 +11,8 @@ if len(sys.argv) != 6:
     sys.exit("Please follow the input format: main.py file_name orig_inp orig_out ret_inp ret_out")
 
 file_name, orig_inp, orig_out, ret_inp, ret_out = sys.argv[1:]
+if orig_inp == '0':
+    orig_inp = ''
 root = './test'
 for file in os.listdir(root):
     if os.path.isdir(file):
